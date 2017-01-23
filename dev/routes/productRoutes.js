@@ -22,7 +22,11 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-7011 HD Safety Warnings',
           model: 'IN-7011_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -31,7 +35,11 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-7011 HD Warranty & Disposal',
           model: 'IN-7011_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -44,6 +52,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Video_Streaming')
 		  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -56,6 +65,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Camera_Reset')
 		  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -64,7 +74,11 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-9008 HD Safety Warnings',
           model: 'IN-9008_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -73,7 +87,11 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-9008 HD Warranty & Disposal',
           model: 'IN-9008_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -86,6 +104,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Video_Streaming')
 		  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -98,6 +117,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Camera_Reset')
 		  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -106,7 +126,11 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-5907 HD Safety Warnings',
           model: 'IN-5907_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -115,7 +139,11 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-5907 HD Warranty & Disposal',
           model: 'IN-5907_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -128,6 +156,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Video_Streaming')
 		  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -140,6 +169,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Camera_Reset')
 		  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -148,7 +178,11 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-5905 HD Safety Warnings',
           model: 'IN-5905_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/ProductsOutdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -157,7 +191,11 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-5905 HD Warranty & Disposal',
           model: 'IN-5905_HD',
-		  type: 'Outdoor'
+		  type: 'Outdoor',
+		  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+          headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -170,6 +208,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Video_Streaming')
 		  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -182,6 +221,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Camera_Reset')
 		  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR Products Outdoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -190,7 +230,11 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-8015 HD Safety Warnings',
           model: 'IN-8015_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -199,7 +243,11 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-8015 HD Warranty & Disposal',
           model: 'IN-8015_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -212,6 +260,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Video_Streaming')
 		  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -224,6 +273,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Camera_Reset')
 		  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -232,7 +282,11 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6014 HD Safety Warnings',
           model: 'IN-6014_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -241,7 +295,11 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6014 HD Warranty & Disposal',
           model: 'IN-6014_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -254,6 +312,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Video_Streaming')
 		  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -266,6 +325,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Camera_Reset')
 		  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -274,7 +334,11 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6012 HD Safety Warnings',
           model: 'IN-6012_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -283,7 +347,11 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6012 HD Warranty & Disposal',
           model: 'IN-6012_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -296,6 +364,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Video_Streaming')
 		  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -308,6 +377,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Camera_Reset')
 		  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 	
@@ -316,7 +386,11 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6001 HD Safety Warnings',
           model: 'IN-6001_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -325,7 +399,11 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6001 HD Warranty & Disposal',
           model: 'IN-6001_HD',
-		  type: 'Indoor'
+		  type: 'Indoor',
+		  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
+          ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+          headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Warranty/">Warranty</a></li>',
         });
     });
 	
@@ -338,6 +416,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Video_Streaming')
 		  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
 	
@@ -350,6 +429,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Camera_Reset')
 		  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Products Indoor IP Cameras',
+          breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Camera_Reset/">Camera Reset</a></li>',
         });
     });
 
@@ -382,6 +462,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD')
 	  uplink: '/Products/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li>',
     });
 });
 
@@ -392,6 +473,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Usermanual')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -402,6 +484,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Product_Features')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -412,6 +495,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Point2Point')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -422,6 +506,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Quick_Installation')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -432,13 +517,18 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Lense_Adjustment')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
 productRouter.route('/Indoor_Cameras/IN-8015_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-8015_Tech_Specs', {
-      title: 'IN-8015 HD Technical Specifications'
+      title: 'IN-8015 HD Technical Specifications',
+      uplink: '/Products/Indoor_Cameras/IN-8015_HD/',
+      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+      headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -449,6 +539,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Downloads')
 	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Downloads/">Downloads</a></li>',
     });
 });  
   
@@ -459,6 +550,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD')
 	  uplink: '/Products/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li>',
     });
 });
 
@@ -469,6 +561,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Usermanual')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -479,6 +572,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Product_Features')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -489,6 +583,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Point2Point')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -499,6 +594,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Quick_Installation')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -509,6 +605,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Lense_Adjustment')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
@@ -518,6 +615,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Technical_Specifications')
       title: 'IN-6014 HD Technical Specifications',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -528,6 +626,7 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Downloads')
 	  uplink: '/Products/Indoor_Cameras/IN-6014_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6014_HD/Downloads/">Downloads</a></li>',
     });
 });
 
@@ -535,6 +634,10 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD')
 .get(function(req, res) {
   res.render('./Products/IN-6012_Overview', {
       title: 'IN-6012 HD Overview',
+	  uplink: '/Products/Indoor_Cameras/',
+      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+      headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li>',
     });
 });
 
@@ -545,6 +648,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Usermanual')
 	  uplink: '/Products/Indoor_Cameras/IN-6012_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -555,6 +659,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Product_Features')
 	  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -565,6 +670,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Point2Point')
 	  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -575,6 +681,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Quick_Installation')
 	  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -585,6 +692,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Lense_Adjustment')
 	  uplink: '/Products/Indoor_Cameras/IN-6012_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -592,6 +700,9 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-6012_Tech_Specs', {
       title: 'IN-6012 HD Technical Specifications',
+      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+      headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -599,6 +710,7 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Downloads')
 .get(function(req, res) {
   res.render('./Products/IN-6012_Downloads', {
       title: 'IN-6012 HD Downloads',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6012_HD/Downloads/">Downloads</a></li>',
     });
 });
 
@@ -606,6 +718,10 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD')
 .get(function(req, res) {
   res.render('./Products/IN-6001_Overview', {
       title: 'IN-6001 HD Overview',
+	  uplink: '/Products/Indoor_Cameras/',
+      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+      headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li>',
     });
 });
 
@@ -616,6 +732,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Usermanual')
 	  uplink: '/Products/Indoor_Cameras/IN-6001_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -626,6 +743,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Product_Features')
 	  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -636,6 +754,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Point2Point')
 	  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -646,6 +765,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Quick_Installation')
 	  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -656,6 +776,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Lense_Adjustment')
 	  uplink: '/Products/Indoor_Cameras/IN-6001_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Usermanual/">Usermanual</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -663,6 +784,9 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-6001_Tech_Specs', {
       title: 'IN-6001 HD Technical Specifications',
+      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
+      headline: 'INSTAR Products Indoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -670,6 +794,7 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Downloads')
 .get(function(req, res) {
   res.render('./Products/IN-6001_Downloads', {
       title: 'IN-6001 HD Downloads',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-6001_HD/Downloads/">Downloads</a></li>',
     });
 });
 
@@ -720,6 +845,10 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD')
 .get(function(req, res) {
   res.render('./Products/IN-7011_Overview', {
       title: 'IN-7011 HD Overview',
+	  uplink: '/Products/Outdoor_Cameras/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+      headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras/">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li>',
     });
 });
 
@@ -730,6 +859,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Usermanual')
 	  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras/">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -740,6 +870,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Product_Features')
 	  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -750,6 +881,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Point2Point')
 	  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -760,6 +892,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Quick_Installation')
 	  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -770,6 +903,7 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Lense_Adjustment')
 	  uplink: '/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-7011_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
@@ -791,6 +925,10 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD')
 .get(function(req, res) {
   res.render('./Products/IN-9008_Overview', {
       title: 'IN-9008 HD Overview',
+	  uplink: '/Products/Outdoor_Cameras/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+      headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras/">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
     });
 });
 
@@ -801,6 +939,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Usermanual')
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras/">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -811,16 +950,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Product_Features')
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
-    });
-});
-
-productRouter.route('/Outdoor_Cameras/IN-9008_HD/Point2Point')
-.get(function(req, res) {
-  res.render('./Products/IN-9008_Point2Point', {
-      title: 'IN-9008 HD Point 2 Point',
-	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
-      headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -831,6 +961,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation')
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -841,6 +972,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi'
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/">WiFi or PoE</a></li>',
     });
 });
 
@@ -851,6 +983,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/">WiFi or PoE</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/Ethernet/">Ethernet</a></li>',
     });
 });
 
@@ -861,6 +994,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/">WiFi or PoE</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/WPS/">WPS</a></li>',
     });
 });
 
@@ -871,6 +1005,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet')
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet/">Ethernet</a></li>',
     });
 });
 
@@ -881,6 +1016,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+	  breadcrumbs: '<li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/">Quick Installation</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and_Audio-Out/">Ethernet & Audio</a></li>',
     });
 });
 
@@ -891,6 +1027,7 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment')
 	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
@@ -915,6 +1052,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD')
 	  uplink: '/Products/Outdoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li>',
     });
 });
 
@@ -925,6 +1063,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Usermanual')
 	  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -935,6 +1074,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Product_Features')
 	  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -945,6 +1085,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Point2Point')
 	  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -955,6 +1096,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Quick_Installation')
 	  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -965,6 +1107,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Lense_Adjustment')
 	  uplink: '/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
@@ -972,6 +1115,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-5907_Tech_Specs', {
       title: 'IN-5907 HD Technical Specifications',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -979,6 +1123,7 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Downloads')
 .get(function(req, res) {
   res.render('./Products/IN-5907_Downloads', {
       title: 'IN-5907 HD Downloads',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5907_HD/Downloads/">Downloads</a></li>',
     });
 });
 
@@ -989,6 +1134,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD')
 	  uplink: '/Products/Outdoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li>',
     });
 });
 
@@ -999,6 +1145,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Usermanual')
 	  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li>',
     });
 });
 
@@ -1009,6 +1156,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Product_Features')
 	  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Product_Features/">Product Features</a></li>',
     });
 });
 
@@ -1019,6 +1167,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Point2Point')
 	  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Point2Point/">Point2Point</a></li>',
     });
 });
 
@@ -1029,6 +1178,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Quick_Installation')
 	  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Quick_Installation/">Quick Installation</a></li>',
     });
 });
 
@@ -1039,6 +1189,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment')
 	  uplink: '/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR Products Outdoor IP Cameras',
+      breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Usermanual/">Usermanual</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment/">Lense Adjustment</a></li>',
     });
 });
 
@@ -1046,6 +1197,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-5905_Tech_Specs', {
       title: 'IN-5905 HD Technical Specifications',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Technical_Specifications/">Technical Specifications</a></li>',
     });
 });
 
@@ -1053,6 +1205,7 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Downloads')
 .get(function(req, res) {
   res.render('./Products/IN-5905_Downloads', {
       title: 'IN-5905 HD Downloads',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Products/Outdoor_Cameras/IN-5905_HD/Downloads/">Downloads</a></li>',
     });
 });
 
@@ -1155,6 +1308,7 @@ productRouter.route('/Lenses')
 	  uplink: '/Products/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li>',
     });
 });
 
@@ -1166,6 +1320,7 @@ productRouter.route('/Lenses/S-Mount/IN-0180')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0180/">S-Mount :: IN-0180</a></li>',
     });
 });
 
@@ -1176,6 +1331,7 @@ productRouter.route('/Lenses/S-Mount/IN-0220')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0220/">S-Mount :: IN-0220</a></li>',
     });
 });
 
@@ -1186,6 +1342,7 @@ productRouter.route('/Lenses/S-Mount/IN-0290')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0290/">S-Mount :: IN-0290</a></li>',
     });
 });
 
@@ -1196,6 +1353,7 @@ productRouter.route('/Lenses/S-Mount/IN-0360')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0360/">S-Mount :: IN-0360</a></li>',
     });
 });
 
@@ -1206,6 +1364,7 @@ productRouter.route('/Lenses/S-Mount/IN-0430')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0430/">S-Mount :: IN-0430</a></li>',
     });
 });
 
@@ -1216,6 +1375,7 @@ productRouter.route('/Lenses/S-Mount/IN-0600')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0600/">S-Mount :: IN-0600</a></li>',
     });
 });
 
@@ -1226,6 +1386,7 @@ productRouter.route('/Lenses/S-Mount/IN-0800')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-0800/">S-Mount :: IN-0800</a></li>',
     });
 });
 
@@ -1236,6 +1397,7 @@ productRouter.route('/Lenses/S-Mount/IN-1200')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-1200/">S-Mount :: IN-1200</a></li>',
     });
 });
 
@@ -1246,6 +1408,7 @@ productRouter.route('/Lenses/S-Mount/IN-1600')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/IN-1600/">S-Mount :: IN-1600</a></li>',
     });
 });
 
@@ -1256,6 +1419,7 @@ productRouter.route('/Lenses/S-Mount/Lense_Comparison')
 	  uplink: '/Products/Lenses/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Lenses/">Lenses</a></li><li><a href="/Products/Lenses/S-Mount/Lense_Comparison/">Lense Comparison</a></li>',
     });
 });
 
@@ -1268,6 +1432,7 @@ productRouter.route('/IN-LAN')
 	  uplink: '/Products/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-LAN/">IN-LAN Powerline</a></li>',
     });
 });
 
@@ -1289,6 +1454,7 @@ productRouter.route('/Power_over_Ethernet')
 	  uplink: '/Products/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Power_over_Ethernet/">Power_over_Ethernet</a></li>',
     });
 });
 
@@ -1310,6 +1476,7 @@ productRouter.route('/IN-Route')
 	  uplink: '/Products/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li>',
     });
 });
 
@@ -1320,6 +1487,7 @@ productRouter.route('/IN-Route/First_Steps')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li>',
     });
 });
 
@@ -1330,6 +1498,7 @@ productRouter.route('/IN-Route/First_Steps/Introduction')
 	  uplink: '/Products/IN-Route/First_Steps/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Introduction/">Introduction</a></li>',
     });
 });
 
@@ -1340,6 +1509,7 @@ productRouter.route('/IN-Route/First_Steps/Charging')
 	  uplink: '/Products/IN-Route/First_Steps/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Charging/">Charging</a></li>',
     });
 });
 
@@ -1350,6 +1520,7 @@ productRouter.route('/IN-Route/First_Steps/Login')
 	  uplink: '/Products/IN-Route/First_Steps/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Login/">Login</a></li>',
     });
 });
 
@@ -1360,6 +1531,7 @@ productRouter.route('/IN-Route/First_Steps/Wizard')
 	  uplink: '/Products/IN-Route/First_Steps/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Wizard/">Wizard</a></li>',
     });
 });
 
@@ -1370,6 +1542,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access')
 	  uplink: '/Products/IN-Route/First_Steps/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Quick Access</a></li>',
     });
 });
 
@@ -1380,6 +1553,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/Router_Modes')
 	  uplink: '/Products/IN-Route/First_Steps/Quick_Access/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Quick Access</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/Router_Modes/">Router Modes</a></li>',
     });
 });
 
@@ -1390,6 +1564,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/Repeater_Mode')
 	  uplink: '/Products/IN-Route/First_Steps/Quick_Access/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Quick Access</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/Repeater_Mode/">Repeater Mode</a></li>',
     });
 });
 
@@ -1400,6 +1575,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/3G_Mode')
 	  uplink: '/Products/IN-Route/First_Steps/Quick_Access/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">First Steps</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Quick Access</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/3G_Mode/">3G Mode</a></li>',
     });
 });
 
@@ -1410,6 +1586,7 @@ productRouter.route('/IN-Route/Overview')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Overview</a></li>',
     });
 });
 
@@ -1420,6 +1597,7 @@ productRouter.route('/IN-Route/Overview/Status')
 	  uplink: '/Products/IN-Route/Overview/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Overview</a></li><li><a href="/Products/IN-Route/Overview/Status/">Status</a></li>',
     });
 });
 
@@ -1430,6 +1608,7 @@ productRouter.route('/IN-Route/Overview/WAN_Status')
 	  uplink: '/Products/IN-Route/Overview/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Overview</a></li><li><a href="/Products/IN-Route/Overview/WAN_Status/">WAN Status</a></li>',
     });
 });
 
@@ -1440,6 +1619,7 @@ productRouter.route('/IN-Route/Overview/Mode')
 	  uplink: '/Products/IN-Route/Overview/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Overview</a></li><li><a href="/Products/IN-Route/Overview/Mode/">Mode</a></li>',
     });
 });
 
@@ -1450,6 +1630,7 @@ productRouter.route('/IN-Route/Overview/File_Explorer')
 	  uplink: '/Products/IN-Route/Overview/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Overview</a></li><li><a href="/Products/IN-Route/Overview/File_Explorer/">File Explorer</a></li>',
     });
 });
 
@@ -1460,6 +1641,7 @@ productRouter.route('/IN-Route/Network')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li>',
     });
 });
 
@@ -1470,6 +1652,7 @@ productRouter.route('/IN-Route/Network/LAN')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/LAN/">LAN</a></li>',
     });
 });
 
@@ -1480,6 +1663,7 @@ productRouter.route('/IN-Route/Network/WiFi_Settings')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/WiFi_Settings/">WiFi Settings</a></li>',
     });
 });
 
@@ -1490,6 +1674,7 @@ productRouter.route('/IN-Route/Network/Repeater_Settings')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/Repeater_Settings/">Repeater Settings</a></li>',
     });
 });
 
@@ -1500,6 +1685,7 @@ productRouter.route('/IN-Route/Network/3G_Settings')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/3G_Settings/">3G Settings</a></li>',
     });
 });
 
@@ -1510,6 +1696,7 @@ productRouter.route('/IN-Route/Network/Router_Mode')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/Router_Mode/">Router Mode</a></li>',
     });
 });
 
@@ -1520,6 +1707,7 @@ productRouter.route('/IN-Route/Network/DHCP')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/DHCP/">DHCP</a></li>',
     });
 });
 
@@ -1530,6 +1718,7 @@ productRouter.route('/IN-Route/Network/DDNS')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/DDNS/">DDNS</a></li>',
     });
 });
 
@@ -1540,6 +1729,7 @@ productRouter.route('/IN-Route/Network/FTP')
 	  uplink: '/Products/IN-Route/Network/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Network</a></li><li><a href="/Products/IN-Route/Network/FTP/">FTP</a></li>',
     });
 });
 
@@ -1550,6 +1740,7 @@ productRouter.route('/IN-Route/Firewall')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li>',
     });
 });
 
@@ -1560,6 +1751,7 @@ productRouter.route('/IN-Route/Firewall/Port_Forwarding')
 	  uplink: '/Products/IN-Route/Firewall/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Port_Forwarding/">Port Forwarding</a></li>',
     });
 });
 
@@ -1570,6 +1762,7 @@ productRouter.route('/IN-Route/Firewall/Device_Filter')
 	  uplink: '/Products/IN-Route/Firewall/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Device_Filter/">Device Filter</a></li>',
     });
 });
 
@@ -1580,6 +1773,7 @@ productRouter.route('/IN-Route/Firewall/DMZ_Host')
 	  uplink: '/Products/IN-Route/Firewall/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/DMZ_Host/">DMZ Host</a></li>',
     });
 });
 
@@ -1590,6 +1784,7 @@ productRouter.route('/IN-Route/Firewall/Webfilter')
 	  uplink: '/Products/IN-Route/Firewall/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Webfilter/">Webfilter</a></li>',
     });
 });
 
@@ -1600,6 +1795,7 @@ productRouter.route('/IN-Route/System')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li>',
     });
 });
 
@@ -1610,6 +1806,7 @@ productRouter.route('/IN-Route/System/Log')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Log/">Log</a></li>',
     });
 });
 
@@ -1620,6 +1817,7 @@ productRouter.route('/IN-Route/System/Login')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Login/">Login</a></li>',
     });
 });
 
@@ -1630,6 +1828,7 @@ productRouter.route('/IN-Route/System/NTP_Setup')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/NTP_Setup/">NTP Setup</a></li>',
     });
 });
 
@@ -1640,6 +1839,7 @@ productRouter.route('/IN-Route/System/Statistics')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Statistics/">Statistics</a></li>',
     });
 });
 
@@ -1650,6 +1850,7 @@ productRouter.route('/IN-Route/System/Import')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Import/">Import</a></li>',
     });
 });
 
@@ -1660,6 +1861,7 @@ productRouter.route('/IN-Route/System/Reboot')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Reboot/">Reboot</a></li>',
     });
 });
 
@@ -1670,6 +1872,7 @@ productRouter.route('/IN-Route/System/Upgrade')
 	  uplink: '/Products/IN-Route/System/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Upgrade/">Upgrade</a></li>',
     });
 });
 
@@ -1680,6 +1883,7 @@ productRouter.route('/IN-Route/Help')
 	  uplink: '/Products/IN-Route/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Help</a></li>',
     });
 });
 
@@ -1690,6 +1894,7 @@ productRouter.route('/IN-Route/Help/Features')
 	  uplink: '/Products/IN-Route/Help/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Help</a></li>li><a href="/Products/IN-Route/Help/Features/">Features</a></li>',
     });
 });
 
@@ -1700,6 +1905,7 @@ productRouter.route('/IN-Route/Help/About_Us')
 	  uplink: '/Products/IN-Route/Help/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Help</a></li>li><a href="/Products/IN-Route/Help/About_Us/">About Us</a></li>',
     });
 });
 
@@ -1712,6 +1918,7 @@ productRouter.route('/IN-Motion')
 	  uplink: '/Products/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li>',
     });
 });
 
@@ -1721,6 +1928,7 @@ productRouter.route('/IN-Motion/300')
       title: 'IN-Motion 300',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/300/">300</a></li>',
     });
 });
 
@@ -1730,6 +1938,7 @@ productRouter.route('/IN-Motion/500')
       title: 'IN-Motion 500',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li>',
     });
 });
 
@@ -1739,6 +1948,7 @@ productRouter.route('/IN-Motion/500/Dual_Sensor')
       title: 'IN-Motion 500 - Dual Sensor',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Dual_Sensor/">Dual Sensor</a></li>',
     });
 });
 
@@ -1748,6 +1958,7 @@ productRouter.route('/IN-Motion/500/Setup')
       title: 'IN-Motion 500 - Setup',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Setup/">Setup</a></li>',
     });
 });
 
@@ -1757,6 +1968,7 @@ productRouter.route('/IN-Motion/500/Wiring')
       title: 'IN-Motion 500 - Wiring',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Wiring/">Wiring</a></li>',
     });
 });
 
@@ -1766,6 +1978,7 @@ productRouter.route('/IN-Motion/500/User_Interface')
       title: 'IN-Motion 500 - User Interface',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/User_Interface/">User Interface</a></li>',
     });
 });
 
@@ -1775,6 +1988,7 @@ productRouter.route('/IN-Motion/500/Considerations')
       title: 'IN-Motion 500 - Considerations',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Considerations/">Considerations</a></li>',
     });
 });
 
@@ -1784,711 +1998,7 @@ productRouter.route('/IN-Motion/500/Recorder')
       title: 'IN-Motion 500 - Recorder',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
-    });
-});
-
-
-
-/* ****************************************** GET /Software ****************************************** */
-productRouter.get('/Software', function(req, res) {
-
-  /* Get all Pictures from software.json for the gallery */
-
-  var softwarePicture = [];
-  var softwarePictureAlt = [];
-  var softwareHref = [];
-  appdata.articles.forEach(function(item) {
-      softwarePicture = softwarePicture.concat(item.Pic);
-      softwarePictureAlt = softwarePictureAlt.concat(item.PicAlt);
-      softwareHref = softwareHref.concat(item.url);
-    });
-
-  res.render('./Products/Software', {
-      title: 'INSTAR Software',
-      Pic: softwarePicture,
-      PicAlt: softwarePictureAlt,
-      url: softwareHref,
-    });
-});
-
-/* ****************************  GET InstarVision for Windows /Windows ************************************* */
-productRouter.route('/Software/Windows')
-.get(function(req, res) {
-  res.render('./Products/Windows', {
-      title: 'Software for Windows',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision', {
-      title: 'InstarVision for Windows',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Camera_List')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Camera_List', {
-      title: 'InstarVision v2 Camera List',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Layout')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Layout', {
-      title: 'InstarVision v2 Layout',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/PTZ')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_PTZ', {
-      title: 'InstarVision v2 Pan, Tilt & Zoom',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Image_Adjust')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Image_Adjust', {
-      title: 'InstarVision v2 Image Adjust',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Webserver')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Webserver', {
-      title: 'InstarVision v2 Webserver',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record', {
-      title: 'InstarVision v2 Record',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/General')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_General', {
-      title: 'InstarVision v2 Record General',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/Schedule')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_Schedule', {
-      title: 'InstarVision v2 Record Schedule',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/Alarm')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_Alarm', {
-      title: 'InstarVision v2 Record Alarm',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/Photoseries')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_Photoseries', {
-      title: 'InstarVision v2 Record Photoseries',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/Email')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_Email', {
-      title: 'InstarVision v2 Record Email',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Record/FTP')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Record_FTP', {
-      title: 'InstarVision v2 Record FTP',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/System')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_System', {
-      title: 'InstarVision v2 System',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Users')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Users', {
-      title: 'InstarVision v2 Users',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced', {
-      title: 'InstarVision v2 Advanced',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced/License')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced_License', {
-      title: 'InstarVision v2 Advanced License',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced/Log')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced_Log', {
-      title: 'InstarVision v2 Advanced Log',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced/Export')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced_Export', {
-      title: 'InstarVision v2 Advanced Export',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced/Player')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced_Player', {
-      title: 'InstarVision v2 Advanced Player',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Advanced/Explorer')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Advanced_Explorer', {
-      title: 'InstarVision v2 Advanced Explorer',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/About')
-.get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_About', {
-      title: 'InstarVision v2 About',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision', {
-      title: 'InstarVision for WindowsPhone',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone/DDNS')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision_DDNS', {
-      title: 'InstarVision for Windows Phone - DDNS',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone/P2P')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision_P2P', {
-      title: 'InstarVision for Windows Phone - P2P',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone/Multiview')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision_Multiview', {
-      title: 'InstarVision for Windows Phone - Multiview',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone/Recording')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision_Recording', {
-      title: 'InstarVision for Windows Phone - Recording',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Windows_Phone/Settings')
-.get(function(req, res) {
-  res.render('./Products/Windows_Phone_InstarVision_Settings', {
-      title: 'InstarVision for Windows Phone - Settings',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision', {
-      title: 'InstarVision for Windows Metro',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro/DDNS')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision_DDNS', {
-      title: 'InstarVision for Windows Metro - DDNS',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro/P2P')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision_P2P', {
-      title: 'InstarVision for Windows Metro - P2P',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro/Multiview')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision_Multiview', {
-      title: 'InstarVision for Windows Metro - Multiview',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro/Recording')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision_Recording', {
-      title: 'InstarVision for Windows Metro - Recording',
-    });
-});
-
-productRouter.route('/Software/Windows/InstarVision/Metro/Settings')
-.get(function(req, res) {
-  res.render('./Products/Windows_Metro_InstarVision_Settings', {
-      title: 'InstarVision for Windows Metro - Settings',
-    });
-});
-
-productRouter.route('/Software/Windows/iSpy')
-.get(function(req, res) {
-  res.render('./Products/Windows_iSpy', {
-      title: 'iSpy Connect',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Sighthound')
-.get(function(req, res) {
-  res.render('./Products/Windows_Sighthound', {
-      title: 'Sighthound',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/P2P_Client')
-.get(function(req, res) {
-  res.render('./Products/Windows_P2P_Client', {
-      title: 'P2P Client',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/go1984')
-.get(function(req, res) {
-  res.render('./Products/Windows_go1984', {
-      title: 'Logiware go1984',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/VLC_Player')
-.get(function(req, res) {
-  res.render('./Products/Windows_VLC', {
-      title: 'VLC Player',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/CCTV_Chrome_Plugin')
-.get(function(req, res) {
-  res.render('./Products/Windows_CCTV_Plugin', {
-      title: 'CCTV Plugin',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Blue_Iris')
-.get(function(req, res) {
-  res.render('./Products/Windows_Blue_Iris', {
-      title: 'Blue Iris',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/YAW_Cam')
-.get(function(req, res) {
-  res.render('./Products/Windows_YAW_Cam', {
-      title: 'YAW Cam',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Zone_Trigger')
-.get(function(req, res) {
-  res.render('./Products/Windows_Zone_Trigger', {
-      title: 'Zone Trigger',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Webcam_XP')
-.get(function(req, res) {
-  res.render('./Products/Windows_Webcam_XP', {
-      title: 'WebcamXP',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Webcam_Motion_Detector')
-.get(function(req, res) {
-  res.render('./Products/Windows_Webcam_Motion_Detector', {
-      title: 'Webcam Motion Detector',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Windows/Zebra_Surveillance')
-.get(function(req, res) {
-  res.render('./Products/Windows_Zebra_Surveillance', {
-      title: 'Zebra Surveillance',
-	  uplink: '/Products/Software/Windows/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-/* *************************  GET InstarVision for macOS /macOS *********************************** */
-productRouter.route('/Software/macOS')
-.get(function(req, res) {
-  res.render('./Products/MacOS', {
-      title: 'Software for macOS',
-    });
-});
-
-productRouter.route('/Software/macOS/Sighthound')
-.get(function(req, res) {
-  res.render('./Products/Windows_Sighthound', {
-      title: 'Sighthound',
-	  uplink: '/Products/Software/macOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/macOS/EvoCam')
-.get(function(req, res) {
-  res.render('./Products/macOS_EvoCam', {
-      title: 'EvoCam',
-	  uplink: '/Products/Software/macOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/macOS/VLC_Player')
-.get(function(req, res) {
-  res.render('./Products/Windows_VLC', {
-      title: 'VLC Player',
-	  uplink: '/Products/Software/macOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/macOS/SecuritySpy')
-.get(function(req, res) {
-  res.render('./Products/macOS_SecuritySpy', {
-      title: 'SecuritySpy',
-	  uplink: '/Products/Software/macOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-/* ************************************ GET InstarVision for Android /Android ************************ */
-productRouter.route('/Software/Android')
-.get(function(req, res) {
-  res.render('./Products/Android', {
-      title: 'Software for Android',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision', {
-      title: 'InstarVision for Android',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision/DDNS')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_DDNS', {
-      title: 'InstarVision for Android - DDNS',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision/P2P')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_P2P', {
-      title: 'InstarVision for Android - P2P',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision/Multiview')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_Multiview', {
-      title: 'InstarVision for Android - Multiview',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision/Recording')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_Recording', {
-      title: 'InstarVision for Android - Recording',
-    });
-});
-
-productRouter.route('/Software/Android/InstarVision/Settings')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_Settings', {
-      title: 'InstarVision for Android - Settings',
-    });
-});
-
-productRouter.route('/Software/Android/TinyCam_Monitor')
-.get(function(req, res) {
-  res.render('./Products/Android_TinyCam', {
-      title: 'TinyCam Monitor',
-	  uplink: '/Products/Software/Android/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Android/IP_Cam_Viewer')
-.get(function(req, res) {
-  res.render('./Products/Android_IP_CamViewer', {
-      title: 'IP Cam Viewer',
-	  uplink: '/Products/Software/Android/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-/* *********************************** GET InstarVision for iOS /iOS ******************************* */
-productRouter.route('/Software/iOS')
-.get(function(req, res) {
-  res.render('./Products/iOS', {
-      title: 'Software for iOS',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone', {
-      title: 'InstarVision for iPhone',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone/DDNS')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone_DDNS', {
-      title: 'InstarVision for iOS - DDNS',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone/P2P')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone_P2P', {
-      title: 'InstarVision for iOS - P2P',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone/Multiview')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone_Multiview', {
-      title: 'InstarVision for iOS - Multiview',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone/Recording')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone_Recording', {
-      title: 'InstarVision for iOS - Recording',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPhone/Settings')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPhone_Settings', {
-      title: 'InstarVision for iOS - Settings',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad', {
-      title: 'InstarVision for iPad',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad/DDNS')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad_DDNS', {
-      title: 'InstarVision for iOS - DDNS',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad/P2P')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad_P2P', {
-      title: 'InstarVision for iOS - P2P',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad/Multiview')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad_Multiview', {
-      title: 'InstarVision for iOS - Multiview',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad/Recording')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad_Recording', {
-      title: 'InstarVision for iOS - Recording',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision/iPad/Settings')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision_iPad_Settings', {
-      title: 'InstarVision for iOS - Settings',
-    });
-});
-
-productRouter.route('/Software/iOS/InstarVision')
-.get(function(req, res) {
-  res.render('./Products/iOS_InstarVision', {
-      title: 'InstarVision for iOS',
-    });
-});
-
-productRouter.route('/Software/iOS/LiveCams')
-.get(function(req, res) {
-  res.render('./Products/iOS_LiveCams', {
-      title: 'LiveCams',
-	  uplink: '/Products/Software/iOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/iOS/IP_Vision_Pro')
-.get(function(req, res) {
-  res.render('./Products/iOS_IP_Vision_Pro', {
-      title: 'IP VIsion Pro',
-	  uplink: '/Products/Software/iOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/iOS/ICCAM')
-.get(function(req, res) {
-  res.render('./Products/iOS_ICCAM', {
-      title: 'ICCAM',
-	  uplink: '/Products/Software/iOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/iOS/IP_Cam_Viewer')
-.get(function(req, res) {
-  res.render('./Products/Android_IP_CamViewer', {
-      title: 'IP Cam Viewer',
-	  uplink: '/Products/Software/iOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/iOS/P2P_Cam_Live')
-.get(function(req, res) {
-  res.render('./Products/iOS_P2P_Cam_Live', {
-      title: 'P2P Cam Live',
-	  uplink: '/Products/Software/iOS/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-/* ************************************ GET /Other_Platforms *************** */
-productRouter.route('/Software/Other_Platforms')
-.get(function(req, res) {
-  res.render('./Products/Other_Platforms', {
-      title: 'Other Platforms',
-    });
-});
-
-productRouter.route('/Software/Other_Platforms/InstarVision_Blackberry')
-.get(function(req, res) {
-  res.render('./Products/Android_InstarVision_Blackberry', {
-      title: 'InstarVision Blackberry',
-	  uplink: '/Products/Software/Other_Platforms/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Other_Platforms/QNAP')
-.get(function(req, res) {
-  res.render('./Products/Other_Platforms_QNAP', {
-      title: 'QNAP',
-	  uplink: '/Products/Software/Other_Platforms/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Other_Platforms/Synology')
-.get(function(req, res) {
-  res.render('./Products/Other_Platforms_Synology', {
-      title: 'Synology',
-	  uplink: '/Products/Software/Other_Platforms/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
-    });
-});
-
-productRouter.route('/Software/Other_Platforms/AVM_Fritzphone')
-.get(function(req, res) {
-  res.render('./Products/Other_Platforms_AVM_Fritzphone', {
-      title: 'AVM Fritzphone',
-	  uplink: '/Products/Software/Other_Platforms/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Recorder/">Recorder</a></li>',
     });
 });
 
