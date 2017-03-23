@@ -28,31 +28,28 @@
         "image": [ "http://wiki.instar.com<%= ampimg %>" ] }
   </script>
 
-    <style amp-custom>
-        <% include ../Test/_ampCustom.css %>
-    </style>
-
-    <style amp-boilerplate>
-        <% include ../Test/_amp-boilerplate.css %>
-    </style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <% include ../_partials/amp/_amp-boilerplate.css %>
+  <% include ../_partials/amp/_ampLandingCustom.css %>
 </head>
 
 <body>
 
-    <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
-        <% include ../Test/_ampSidebar.ejs %>
-    </amp-sidebar>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
 
-    <header class="header fixed">
-        <% include ../Test/_ampHeader.ejs %>
-    </header>
+  <header class="header fixed">
+      <% include ../_partials/amp/_ampLandingHeader.ejs %>
+  </header>
 
     <div class="wrap">
         <div class="content">
 
-            <section class="large-cta tablet-up">
+            <section class="large-cta">
+              <div class="cta-container">
                 <h1>INSTAR Wiki 2.0</h1>
                 <h2>The INSTAR Product Usermanual</h2>
+              </div>
             </section>
 
             <!-- ########################## Usermanuals ############################### -->
@@ -183,7 +180,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-9008 HD Manual</h4>
+                            <p>This 1080p Camera is by far the best outdoor camera available at the moment. Thanks to its fullHD WDR image sensor it deliveres a crystal clear picture during day and night ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -200,7 +198,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-8015 HD Manual</h4>
+                            <p>HD IP camera with Pan &amp; Tilt rotation, 1080p WDR image sensor, software-based  motion detection and integrated PIR motion detector, infrared night vision ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -217,7 +216,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-7011 HD Manual</h4>
+                            <p>This weather proof dome camera can either be used in in- or outdoor environments. Internal motors allow you to pan &amp; tilt it´s lense from your tablet or a smartphone...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -234,7 +234,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-6014 HD Manual</h4>
+                            <p>The IN-6014HD is an allround solution for Pan &amp; Tilt indoor surveillance. The integrated PIR Motion Detector ensures a fault proof detection of ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -251,7 +252,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-6012 HD Manual</h4>
+                            <p>The IN-6012HD is a Pan &amp; Tilt indoor surveillance solution. The camera head is remotely controlable and equipped with infrared diodes to utilize night vision in pitch dark environments ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -268,7 +270,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-6001 HD Manual</h4>
+                            <p>The successor of the IN-3001 and comparable in size with a pack of cigarettes. With the IN-6001HD you will not need much else to realize your surveillance system ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -285,7 +288,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-5907 HD Manual</h4>
+                            <p>The IN-5907 HD is weather proof and wireless outdoor camera. It´s built-in high-powered infrared diodes  allow you to see deep into the dark ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -302,7 +306,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-5905 HD Manual</h4>
+                            <p>It's not just a smaller version of our IN-5907HD, it also sports a 4mm wide-angle lens for a huge viewing-angle of about 90º ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -319,7 +324,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-4011 Manual</h4>
+                            <p>The IN-4011 is the successor of the IN-4010 dome camera and offers advanced Pan &amp; Tilt features and 66 integrated IR LEDs for night vision ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -336,7 +342,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-4010 Manual</h4>
+                            <p>For surveillance purposes, the IN-4010 v2 is ready for implementation to your existing Home Automation Systems as well as NAS Systems like Synology or Qnap ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -353,7 +360,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-3011 Manual</h4>
+                            <p>The IN-3011 features integrated speakers and a microphone which makes the perfect camera for monitoring your baby or toddler ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -370,7 +378,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-2908 Manual</h4>
+                            <p>The IN-2908 is the first in the 290X-series to feature a remotely controllable focal length. Many more Upgrades makes this camera a worthy successor of the IN-2907 ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -387,7 +396,8 @@
                           </div>
                           <!-- /articleImage -->
                           <div class="articlePreview">
-                            <p>#</p>
+                            <h4>IN-2905 Manual</h4>
+                            <p>The IN-2905 v2 is the successor of the popular IN-2905. Dozens of Upgrades makes this camera on par with the more high-end line of INSTAR cameras ...</p>
                           </div>
                           <!-- /articleImage -->
                         </div>
@@ -403,13 +413,7 @@
 
             <!-- ########################## WebUI ############################### -->
 
-            <section class="large-cta orange">
-                <h1>Web User Interface</h1>
-                <p>Control your INSTAR IP camera from your default web browser - from your home network or over the internet.</p>
-                <a href="/Web_User_Interface/1080p_Series/" class="btn"><span>1080p Series</span></a>
-                <a href="/Web_User_Interface/720p_Series/" class="btn"><span>720p Series</span></a>
-                <a href="/Web_User_Interface/1080p_Series/Overview/" class="btn"><span>VGA Series</span></a>
-            </section>
+            <% include ../_partials/amp/_ampWebUI.ejs %>
 
             <!-- ########################## Software ############################### -->
 
@@ -583,14 +587,7 @@
 
             <!-- ########################## InstarVision ############################### -->
 
-            <section class="large-cta">
-                <h1>InstarVision Surveillance Solution</h1>
-                <p>INSTAR offers a solution for every sureveillance task and supports a variety of third-party solutions.</p>
-                <a href="/Software/Windows/" class="btn btnWhite"><span>Windows</span></a>
-                <a href="/Software/macOS/" class="btn btnWhite"><span>macOS</span></a>
-                <a href="/Software/Android/" class="btn btnWhite"><span>Android</span></a>
-                <a href="/Software/iOS/" class="btn btnWhite"><span>iOS</span></a>
-            </section>
+            <% include ../_partials/amp/_ampProducts.ejs %>
 
             <!-- ########################## Accessories ############################### -->
 
@@ -764,12 +761,14 @@
 
             <!-- ########################## Related ############################### -->
 
-            <section class="social mobile-down margin">
+            <section class="social mobile-down">
                 <h1>Related Chapters</h1>
-                <a href="/Quick_Installation/" class="btn btnWhite">Installation</a>
-                <a href="/Motion_Detection/" class="btn btnWhite">Alarm</a>
-                <a href="/Internet_Access/" class="btn btnWhite">Remote Access</a>
-                <a href="/Advanced_User/" class="btn btnWhite">Developers</a>
+                <div class="socialBox">
+                  <a href="/Quick_Installation/" class="btn btnWhite btnChapter btnInstall"></a>
+                  <a href="/Motion_Detection/" class="btn btnWhite btnChapter btnMotion"></a>
+                  <a href="/Internet_Access/" class="btn btnWhite btnChapter btnRemote"></a>
+                  <a href="/Advanced_User/" class="btn btnWhite btnChapter btnDev"></a>
+                </div>
             </section>
 
             <!-- ########################## Footer ############################### -->
